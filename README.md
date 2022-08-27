@@ -4,7 +4,7 @@
 
 
 
-1.先到https://geojson.io/#map=2/20.0/0.0 网站，根据自己的需要获取研究区的.geojson文件，将其放入research area文件夹（支持批量下载多个geojson文件）
+1.先到:https://geojson.io/#map=2/20.0/0.0 网站，根据自己的需要获取研究区的.geojson文件，将其放入research area文件夹（支持批量下载多个geojson文件）
 
 
 

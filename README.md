@@ -10,7 +10,7 @@
 
 2.选择需要使用的脚本，sentinel_1、2、3的三个下载脚本
 
-![image-20220827200219877](.\idea\image-20220827200219877.png)
+![image-20220827200219877](https://github.com/GISer-longchaohuo/sentinel_1-2-3data-download/blob/b0f1ef0ffd97939c4f98e0bf090863759c836dd7/idea/image-20220827200219877.png)
 
 3.进入脚本后，注意修改path的路径为自己电脑的绝对路径，否则会出错！！！，其他根据自己的需求修改参数即可
 

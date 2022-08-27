@@ -14,4 +14,4 @@
 
 3.进入脚本后，注意修改path的路径为自己电脑的绝对路径，否则会出错！！！，其他根据自己的需求修改参数即可
 
-![image-20220827201215123](.\idea\image-20220827201215123.png)
+![image-20220827201215123](https://github.com/GISer-longchaohuo/sentinel_1-2-3data-download/blob/9ec5251b4c81ee170d58cfa52cb165b39174f4a4/idea/image-20220827201215123.png)

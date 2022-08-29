@@ -16,7 +16,7 @@ import os
 import pathlib
 
 # sentinel-2数据下载函数
-def sentinel_3_data(user_name,user_password,sentinel_url,start_date,end_date):
+def sentinel_5_data(user_name,user_password,sentinel_url,start_date,end_date):
     '''
     :param user_name: 哥白尼数据访问中心账号
     :param user_password:哥白尼数据访问中心账号密码
@@ -114,4 +114,4 @@ if __name__ == '__main__':
      
     '''
     producttype = 'L2__NO2___','L2__O3_TCL'
-    sentinel_3_data(user_name, user_password, sentinel_url, start_date, end_date)
+    sentinel_5_data(user_name, user_password, sentinel_url, start_date, end_date)

@@ -8,7 +8,7 @@
 
 
 
-2.选择需要使用的脚本，sentinel_1、2、3的三个下载脚本
+2.选择需要使用的脚本，sentinel_1、2、3、5的三个下载脚本
 
 ![image-20220827200219877](https://github.com/GISer-longchaohuo/sentinel_1-2-3data-download/blob/b0f1ef0ffd97939c4f98e0bf090863759c836dd7/idea/image-20220827200219877.png)
 

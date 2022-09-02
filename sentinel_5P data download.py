@@ -73,14 +73,14 @@ def sentinel_5_data(user_name,user_password,sentinel_url,start_date,end_date):
                 if product_online: #在线
                     print(f'产品为{product_title}在线')
                     #判断本地是否有完整产品
-                    if not os.path.isfile(out_file + os.sep + product_title + ".zip"):
+                    if not os.path.isfile(out_file + os.sep + product_title + ".nc"):
                         print(f'本地无 {product_title}.zip 的完整文件')
                         #通过产品id下载产品
                         sentinel_API.download(product_ID,directory_path= out_file)
                 else:#产品不在线
                     print(f'产品为{product_title}不在线')
                     # 判断本地是否有完整产品
-                    if not os.path.isfile(out_file + os.sep + product_title + ".zip"):
+                    if not os.path.isfile(out_file + os.sep + product_title + ".nc"):
                         print(f'本地无{product_title}.zip 的完整文件，尝试触发 LongTermArchive 库')
                         try: # 尝试触发
                             sentinel_API.download(product_info['id'], directory_path= out_file)
@@ -113,5 +113,5 @@ if __name__ == '__main__':
     L2__NP_BD7, L2__O3_TCL, L2__O3____, L2__SO2___, AUX_CTMFCT、AUX_CTMANA
      
     '''
-    producttype = 'L2__NO2___','L2__O3_TCL'
+    producttype = 'L2__NO2___'
     sentinel_5_data(user_name, user_password, sentinel_url, start_date, end_date)
